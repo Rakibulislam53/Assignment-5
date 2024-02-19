@@ -98,6 +98,7 @@ btnContinue.addEventListener('click',function () {
 
     const append = document.getElementById('append');
     append.classList.add('hidden');
+    location.reload()
 
     
 
