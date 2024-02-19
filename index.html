@@ -189,18 +189,18 @@
         </div>
 
         <div
-          class="flex flex-col lg:flex-row justify-between items-start pl-10 lg:pl-1 lg:items-center container mx-auto"
+          class="flex flex-col lg:flex-row justify-between items-start pl-6 lg:pl-1 lg:items-center container mx-auto"
         >
           <div class="flex flex-col lg:flex-row justify-between w-3/4">
-            <div class="flex flex-col lg:flex-row gap-6 mt-4 lg:mt-1">
-              <img src="images/bus-logo.png" alt="" />
+            <div class="flex flex-row gap-6 mt-4 lg:mt-1">
+              <img src="images/bus-logo.png" alt="" class="size-12 lg:size-20"/>
               <div>
-                <h3 class="text-4xl font-bold">Greenline Paribahan</h3>
+                <h3 class="text-xl lg:text-4xl font-bold">Greenline Paribahan</h3>
                 <p>Coach-009-WEB! AC_ Business</p>
               </div>
             </div>
             <div class="bg-[#1DD10026] flex items-center gap-2 p-4 rounded-lg">
-              <img src="images/seat-green.png" alt="" />
+              <img src="images/seat-green.png" alt="" class="" />
               <p class="text-[#1DD100] text-xl font-semibold font-inter">
                 <span id="left-seat">40</span> Seats left
               </p>
@@ -212,8 +212,8 @@
             class="h-60 hidden lg:flex"
           />
 
-          <div class="flex flex-col">
-            <img src="images/fare.png" alt="" class="size-12" />
+          <div class="flex flex-row items-center-center lg:flex-col">
+            <img src="images/fare.png" alt="" class="size-9 lg:size-12" />
             <h4 class="text-3xl font-bold text-black">550 Taka</h4>
             <p class="text-xl font-medium">Per Seat</p>
           </div>
@@ -244,7 +244,7 @@
         </div>
 
         <section
-          class="container mx-auto flex justify-between my-24 bg-white rounded-xl font-inter"
+          class="container mx-auto flex flex-col lg:flex-row justify-between my-6 lg:my-24 bg-white rounded-xl font-inter"
         >
           <div class="w-full flex-1 p-3 lg:p-6">
             <h3 class="text-2xl font-semibold w-full">Select Your Seat</h3>
@@ -320,10 +320,10 @@
             </div>
           </div>
 
-          <div class="flex-1 ml-20">
+          <div class="flex-1 ml-3 lg:ml-20">
             <h3 class="text-2xl font-semibold pt-6 pb-3">Select Your Seat</h3>
             <hr />
-            <div class="w-3/4 bg-[#F7F8F8] p-3 rounded-lg mt-6 pb-6">
+            <div class="w-full lg:w-3/4 bg-[#F7F8F8] p-3 rounded-lg mt-6 pb-6">
               <div class="pt-5">
                 <div class="flex justify-around">
                   <h4 class="text-xl font-semibold">
@@ -350,17 +350,17 @@
                   <p class="text-lg font-bold">BDT <span id="total-price">0</span></p>
                 </div>
               </div>
-              <div id="discout-input" class="ml-2 mt-6 bg-white w-full rounded-2xl p-2">
+              <div id="discout-input" class="ml-2 mt-6 bg-white w-full rounded-2xl p-2 flex">
                 <input id="coupon"
                   type="text"
                   placeholder="Type here"
                   class="input w-full max-w-xs "
-                />
-                <button id="btn-dicount"
-                  class="text-lg font-semibold bg-[#1DD100] px-4 py-2 ml-20 rounded-xl text-white" 
-                >
-                  Apply
-                </button>
+                  />
+                  <button id="btn-dicount"
+                    class="text-lg font-semibold bg-[#1DD100] px-4 py-2 ml-20 rounded-xl text-white" 
+                  >
+                    Apply
+                  </button>
               </div>
               <div class="flex justify-between pt-3 px-10">
                 <div>
@@ -371,7 +371,7 @@
                 </div>
               </div>
             </div>
-            <div class="mr-40 space-y-4 mt-8">
+            <div class=" mr-3 lg:mr-40 space-y-4 mt-8">
               <label class="text-xl font-extrabold" for=""
                 >Passenger Name*</label
               >
@@ -402,10 +402,10 @@
                 Next
               </button>
               <div class="flex justify-around items-center">
-                <p class="font-inter text-lg underline font-medium">
+                <p class="font-inter text-sm lg:text-lg underline font-medium">
                   Terms and Conditions
                 </p>
-                <p class="font-inter text-lg underline font-medium">
+                <p class="font-inter text-sm lg:text-lg underline font-medium">
                   Cancellation Policy
                 </p>
               </div>
@@ -435,10 +435,10 @@
 
     <footer id="footer">
       <div
-        class="footer p-10 bg-[#030712] text-neutral-content border-cyan-200"
+        class="footer p-6  lg:p-10 bg-[#030712] text-neutral-content border-cyan-200"
       >
         <div
-          class="p-10 bg-[#030712] text-neutral-content border-cyan-200 flex w-full justify-center gap-96"
+          class="p-6 pb-20 lg:p-10 bg-[#030712] text-neutral-content border-cyan-200 flex flex-col lg:flex-row w-full justify-center gap-6 lg:gap-96"
         >
           <aside>
             <h3 class="text-3xl font-extrabold pb-6">P-Ticket</h3>
@@ -453,7 +453,7 @@
           <nav>
             <h6 class="text-xl font-semibold font-inter pb-2">Download our app</h6>
             <div
-              class="grid grid-flow-col gap-4 border-2 w-2/4 p-2 rounded-xl items-center"
+              class="grid grid-flow-col gap-4 border-2 w-full lg:w-2/4 p-2 rounded-xl items-center"
             >
               <img src="images/playstore.png" alt="" />
               <div class="text-white items-center font-bold">
